@@ -1,6 +1,6 @@
 # Puzzled-application 
 
-This interactive puzzle web application is designed to assess soft skills such as an eye for detail, perseverance, and curiosity. The web application follows the concept of a treasure hunt and contains correct clues, wrong clues, dead-ends, and one solution. The application stores user data, provide game statistics, and includes an admin dashboard to track and analyze user progress. The web application is hosted on Render for accessibility and ease of use.
+This interactive puzzle web application is designed to assess soft skills such as an eye for detail, perseverance, and curiosity. The web application follows the concept of a treasure hunt and contains correct clues, wrong clues, dead-end, and one solution. The application stores user data, provide game statistics, and includes an admin dashboard to track and analyze user progress. The web application is hosted on Render for accessibility and ease of use.
 
 # Soft Skills Assessed by the Puzzle
 
