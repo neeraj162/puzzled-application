@@ -25,10 +25,23 @@ The puzzle consists of five correct clues, two wrong clues and a dead-ends. The 
 
 More clear explanation and answers in admin dashboard.
 
+# Features
+### Main features
+* User registration and login using email and password
+* Minimum of 5 clues and 2 paths leading to dead-end
+* User progress and data stored in database
+* Prompt to restart the puzzle on refresh
+* Admin dashboard to track and analyze user progress
+* Hosting on cloud-hosting websites such as render.com
+### Additional features
+* User analytics such as time taken for each step and score are stored and shown in the admin dashboard
+* Leaderboard to show the top users who completed the puzzle
+* Hint system(for 2 clues only) to provide hints to users who are stuck on a clue
+
 # Project Setup
 * Clone the repository.
 * Install Node.js, npm/yarn and mongoDB on your system.
-## Frontend
+### Frontend
 * Navigate to the frontend folder './frontend'.
 ```
 cd ./frontend
@@ -47,7 +60,7 @@ export default axios.create({
 ```
 npm start
 ```
-## Backend
+### Backend
 * Navigate to the backend folder './backend'.
 ```
 cd ./backend
