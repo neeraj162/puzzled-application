@@ -1,7 +1,5 @@
 const whitelist = [
-    'https://puzzled-app.onrender.com',
-    // 'https://puzzled-app.netlify.app',
-    'http://localhost:3000',
+    'frontend_url',
 ];
 
 const corsOptions = {
