@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.App {
+    color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+  /* background-color: dodgerblue; */
+  background: radial-gradient(circle, rgb(57, 74, 136) 0%, rgb(28, 37, 68) 100%);
+  --darkreader-inline-bgimage: radial-gradient(circle, #2e3b6d 0%, #161e36 100%);
+  --darkreader-inline-bgcolor: initial;
+  
+}
+
+.main {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    /* background-color: rgba(0,0,0,0.4); */
+    /* --darkreader-bg--tw-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color); */
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+
+.input,
+.button,
+textarea {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.label,
+.button {
+  margin-top: 1rem;
+    font-size: 22px;
+}
+
+.label {
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.button {
+  padding: 0.5rem;
+  /* background-color: black;
+  color: white; */
+  font-family: 'Roboto';
+  font-weight: 500;
+  --darkreader-bg--tw-bg-opacity: 1;
+  --darkreader-text--tw-text-opacity: 1;
+  background-color: rgb(24, 26, 27);
+  box-shadow: rgb(30, 39, 73) 0px 0.25rem;
+  color: rgb(128, 161, 202);
+}
+.button:disabled{
+    color: rgb(58, 58, 58);
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
